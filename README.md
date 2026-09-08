@@ -2,7 +2,7 @@
 Va-Que-Ri-Tos:
 
 A confrontation of cowboys to decide the fate of a decission. 
-A simple game that is fun and can be used to take a decission between two or more persons. It has three actions the user can do: reload, shield and shoot. Similar to rock, paper, scissors, reload works to reload your weapon the times the user wants to, shield is for  being protected by the shooting action, shoot is for shooting the person the user decides.
+A simple game that is fun and can be used to take a decission between two persons. It has three actions the user can do: reload, shield and shoot. Similar to rock, paper, scissors, reload works to reload your weapon the times the user wants to, shield is for  being protected by the shooting action, shoot is for shooting the person the user decides.
 
 Instructions:
 
@@ -13,22 +13,18 @@ Instructions:
 -Shoot: Use it to shoot any player and defeat them
 
 Inputs:
-
--Select number of players:
-
--Select the action you want to do
+1.- Player's 1 action (1,2 or 3)
+2.- Player's 2 action (1,2 or 3)
 
 Process:
+1.- Check if both players HP is higher to 0 to start the round
+2.- Ask both players their actions
+3.- Depending on the selected action, execute a conditional to create the interaction
+4.- Check if the reloads or shields are greater than 0 to set them to 0 
+5.- Continue the rounds until a player's hp becomes 0 or lower
 
--Asign a variable according to each action
-
--Asign a number to each action
-
--Save and add or extract numbers of specific variables to do the interactions
-
--Depending on the action, use operators to determine the result of the interaction between each players actions
- 
 Outputs:
-  -Display the action of players (They will be sorted in an specific order)
-  -Display if an action got overriden by other (Ex. shield blocking shoot)
-  -Display if a player is defeated
+1.- Display the rules, the interactions and the controls
+2.- Display of the current players turn, current round and their stats(quantity of bullets and shield)
+3.- Display a message if a player shoots without bullets
+4.- If a player HP becomes 0 or lower, display a winning message for the winner
