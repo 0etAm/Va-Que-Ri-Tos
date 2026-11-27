@@ -135,6 +135,6 @@ In order to play VA-QUE-RI-TOS from your terminal (assuming python is already in
 
 3.-Search in the files where the VA-QUE-RI-TOS folder is and enter it, then right click the VA-QUE-RI-TOS file and select copy path as route.
 
-4.-Go back to the terminal and paste the path, press enter and write ‘py VA-QUE-RI-TOS.py’ and press enter again.
+4.-Go back to the terminal, write "cd " (important to include the space) and paste the path, press enter and write ‘py VA-QUE-RI-TOS.py’ and press enter again.
 
 5.-You are ready to play.
