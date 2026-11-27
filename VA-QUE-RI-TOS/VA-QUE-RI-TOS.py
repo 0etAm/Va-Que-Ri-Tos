@@ -589,7 +589,7 @@ def main():
         #Ask to play again
         jugar_otra = leer_opcion("\nDo you want to play again? (1: Yes, 2: No): ", 1, 2)
         if jugar_otra == 1:
-            main()
+            print("Let's play again!")
         elif jugar_otra == 2:
             print("Thanks for playing VA-QUE-RI-TOS!")
             break
